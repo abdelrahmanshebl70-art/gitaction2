@@ -14,6 +14,6 @@ jobs:
    runs-on: ubuntu-latest
    steps:
      - name: muste
-       run: echo "hrlloص"
+       run: echo "hrllo ${{inputs.environment}}"
     
  
