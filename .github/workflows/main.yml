@@ -1,19 +1,12 @@
-name: myfrist
-on:
- workflow_dispatch:
-  inputs:
-    environment:
-     required: true
-     default: "staging"
-     type: choice
-     options:
-       - staging
-       - production 
+name: scond 
+on: 
+  repository_dispatch: 
+   types: [incident_report]
 jobs:
   myjob:
    runs-on: ubuntu-latest
    steps:
-     - name: muste
-       run: echo "hrllo ${{inputs.environment}}"
+    - name: incedent 
+      run: echo "djjds" 
     
- 
+  
