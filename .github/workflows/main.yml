@@ -1,3 +1,4 @@
+name: myfrist
 on:
  workflow_dispatch:
 jobs:
