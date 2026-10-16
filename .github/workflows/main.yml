@@ -1,0 +1,10 @@
+on:
+ workflow_dispatch:
+jobs:
+  myjob:
+   runs-on: ubuntu-latest
+   steps:
+     - name: muste
+       run: echo "hrlloe"
+    
+ 
